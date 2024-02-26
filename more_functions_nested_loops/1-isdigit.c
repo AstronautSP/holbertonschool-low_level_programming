@@ -2,7 +2,7 @@
 /**
  * _isdigit - function that verifies if a character is a digit or not
  * @c: tested character
- * Return returns 1 if is uppercase , O if not
+ * Return: returns 1 if is uppercase , O if not
  */
 
 int _isdigit(int c)
