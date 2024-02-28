@@ -15,7 +15,7 @@ for (number2 = 0 ; number1 <= 14 ; number2++)
 
 if (number2 > 9)
 {
-_putchar((number2 / 10) + '0');
+_putchar((number1 / 10) + '0');
 }
 _putchar((number2 % 10) + '0');
 }
