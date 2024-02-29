@@ -19,6 +19,6 @@ if (a % 2 == 0)
 _putchar(s[a]);
 
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
