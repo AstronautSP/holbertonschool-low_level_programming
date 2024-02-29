@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * reset_to_98 - reset of value of an integer to 98
  * *@n: parameter targeted
