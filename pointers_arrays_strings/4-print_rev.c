@@ -4,7 +4,7 @@
  *]s:string to print
  */
 
-void print_rev(chars *)
+void print_rev(char*s)
 {
 int len = 0, index = 0;
 len = _strlen(s);
