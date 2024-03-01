@@ -25,6 +25,5 @@ x = *end;
 *begin = x;
 begin++;
 end--;
-	}
-end[len + 1] = '\0';
+}
 }
