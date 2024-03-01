@@ -7,17 +7,17 @@
  */
 char *_strcpy(char *dest, const char *src)
 {
-char *original_dest = dest;
-
+char *cpy = dest;
 while (*src != '\0')
 {
 	*dest = *src;
 
 	src++;
+	dest++;
 }
 
-*original_dest = '\0';
+*dest = '\0';
 
 
-return (dest++);
+return (cpy);
 }
