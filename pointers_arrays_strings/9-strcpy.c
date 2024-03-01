@@ -11,9 +11,9 @@ char *original_dest = dest;
 
 while (*src != '\0')
 {
-*dest = *src;
+	*dest = *src;
 
-src++;
+	src++;
 }
 
 *original_dest = '\0';
