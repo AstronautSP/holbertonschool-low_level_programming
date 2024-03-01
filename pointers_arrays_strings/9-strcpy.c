@@ -7,7 +7,7 @@
  */
 char *_strcpy(char *dest, const char *src)
 {
-char *original_dest = dest
+char *original_dest = dest;
 
 while (*src != '\0')
 {
@@ -16,8 +16,8 @@ while (*src != '\0')
 src++;
 }
 
-*dest = '\0';
+*original_dest = '\0';
 
 
-return (dest++)
+return (dest++);
 }
