@@ -22,5 +22,5 @@ n = n * 10 + str[i] - '0';
 i++;
 }
 
-return (sign * n);
+return (sign *n);
 }
